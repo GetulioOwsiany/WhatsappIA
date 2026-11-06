@@ -1,0 +1,15 @@
+# Ambientes Virtuais
+.venv/
+venv/
+env/
+
+# Ficheiros de Configuração e Segredos (CRÍTICO)
+.env
+
+# Ficheiros temporários do Python (Cache)
+__pycache__/
+*.pyc
+
+# Ficheiros de Dados (para não vazar conversas do WhatsApp no GitHub)
+*.txt
+temp_chat.txt
