@@ -23,7 +23,7 @@ Durante o desenvolvimento, foquei em práticas fundamentais de Engenharia de Sof
 3. **Resiliência (Fault Tolerance):** Implementação de blocos `try/except` com lógicas de *Fallback* (Mocking) para lidar de forma elegante com instabilidades da API externa (Erros 503) ou limitação de taxa/Rate Limits (Erro 429).
 4. **Privacidade de Dados:** Os ficheiros carregados via interface são processados em memória/armazenamento temporário e excluídos imediatamente após a extração dos dados (bloco `finally`), garantindo a privacidade do utilizador.
 
-## 🚀 Como Executar o Projeto
+## 🚀 Como Executar o Projeto 
 
 1. Clone este repositório:
 ```bash
